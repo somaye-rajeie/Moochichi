@@ -33,17 +33,6 @@ a {
 --Helper Class
 
 */
-.active {
-    background-color: var(--pink-FF6687-color);
-    color: #fff;
-    border-radius: 4.3rem;
-    -webkit-border-radius: 4.3rem;
-    -moz-border-radius: 4.3rem;
-    -ms-border-radius: 4.3rem;
-    -o-border-radius: 4.3rem;
-    font-family: "Vazirmatn Medium";
-    padding: 0.5rem 1.5rem;
-}
 
 .hidden {
     display: none;
@@ -795,19 +784,47 @@ flex-wrap: wrap; */
     margin-top: 2rem;
 }
 
-.popular-products-menu__item {}
-
-.popular-products-menu__link {
+.popular-products-menu__item {
     color: #A89C9F;
     font-size: 1.4rem;
     line-height: 1.8rem;
 }
 
+.popular-products-menu__item--active {
+    background-color: var(--pink-FF6687-color);
+    color: #fff;
+    border-radius: 4.3rem;
+    -webkit-border-radius: 4.3rem;
+    -moz-border-radius: 4.3rem;
+    -ms-border-radius: 4.3rem;
+    -o-border-radius: 4.3rem;
+    font-family: "Vazirmatn Medium";
+    padding: 0.5rem 1.5rem;
+}
+
+.popular-products__gallery{
+margin:4rem 0 6rem 0;
+}
+
 .popular-products__content {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 4rem 0 6rem 0;
+    /* margin: 4rem 0 6rem 0; */
+    transition: opacity 200ms ease-in;
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    -ms-transition: opacity 200ms ease-in;
+    -o-transition: opacity 200ms ease-in;
+}
+
+.popular-products__content--show {
+    height: auto;
+    overflow: visible;
+    opacity: 1;
 }
 
 .popular-products__content-item,
@@ -1439,8 +1456,8 @@ Footer
 }
 
 .footer-menu {
-    width:90%;
-    margin:0 auto;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1460,18 +1477,16 @@ Footer
 }
 
 .footer__contact-methods {
-    margin:3rem 0;
+    margin: 3rem 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.footer__contact {
-
-}
+.footer__contact {}
 
 .footer__contact-phone span,
-.footer__contact-location span{
+.footer__contact-location span {
     line-height: 1rem;
     color: #E7E7E7;
 }
@@ -1491,13 +1506,11 @@ Footer
     justify-content: center;
 }
 
-.footer__contact-phone-icon span ,
-.footer__contact-location-icon span{
-
-}
+.footer__contact-phone-icon span,
+.footer__contact-location-icon span {}
 
 .footer__contact-location {
-    margin-top:1rem;
+    margin-top: 1rem;
 }
 
 
@@ -1507,18 +1520,20 @@ Footer
 }
 
 .footer__bottom {
-background-color: var(--pink-FF6687-color); 
-padding:2rem 0; 
-display: flex;
-align-items: center;
-justify-content: space-around;
+    background-color: var(--pink-FF6687-color);
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.footer__copyright{
-font-size: 1.4rem;
-line-height: 1rem;
-color: #fff;
+
+.footer__copyright {
+    font-size: 1.4rem;
+    line-height: 1rem;
+    color: #fff;
 }
-.footer__social-networks{
-display: flex;
-align-items: center;
+
+.footer__social-networks {
+    display: flex;
+    align-items: center;
 }

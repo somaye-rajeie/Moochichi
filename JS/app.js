@@ -38,3 +38,19 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+// Click event on popular-products-menu__item
+const popularProductItems=document.querySelectorAll('.popular-products-menu__item')
+
+popularProductItems.forEach(function(productItem){
+productItem.addEventListener('click',function(){
+    document.querySelector('.popular-products-menu__item--active').classList.remove('popular-products-menu__item--active');
+    document.querySelector('.popular-products__content--show').classList.remove('popular-products__content--show');
+    
+    this.classList.add('popular-products-menu__item--active');
+
+    let popularContentId=this.getAttribute('data-content-id');
+    
+    document.getElementById(popularContentId).classList.add('popular-products__content--show');
+})
+})
