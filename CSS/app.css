@@ -1400,11 +1400,6 @@ Swiper Slides
     font-size: 1.4rem;
     color: #A89C9F;
 }
-
-.articles__content-link {}
-
-.articles__content-icon {}
-
 .articles__more-btn {
     display: flex;
     align-items: center;
@@ -1423,30 +1418,22 @@ Swiper Slides
     font-size: 1.4rem;
     padding: 1rem 4rem;
 }
-
 /* 
 
 Footer
 
 */
-
-.footer {}
-
 .footer__wrapper {
     background-color: #30303D;
     border-top-left-radius: 6.4rem;
     border-top-right-radius: 6.4rem;
     padding: 2rem 0 0 0;
 }
-
 .footer__logo {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.footer__logo img {}
-
 .footer__txt {
     font-size: 1.4rem;
     line-height: 1.8rem;
@@ -1469,9 +1456,6 @@ Footer
     border-bottom: 1px solid;
     padding-bottom: 2rem;
 }
-
-.footer-menu__item {}
-
 .footer-menu__item-link {
     color: inherit;
 }
@@ -1482,9 +1466,6 @@ Footer
     justify-content: space-around;
     align-items: center;
 }
-
-.footer__contact {}
-
 .footer__contact-phone span,
 .footer__contact-location span {
     line-height: 1rem;
@@ -1505,15 +1486,9 @@ Footer
     align-items: center;
     justify-content: center;
 }
-
-.footer__contact-phone-icon span,
-.footer__contact-location-icon span {}
-
 .footer__contact-location {
     margin-top: 1rem;
 }
-
-
 .footer__financial-logos {
     display: flex;
     align-items: center;
