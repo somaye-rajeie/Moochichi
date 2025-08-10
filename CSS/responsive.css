@@ -1,0 +1,383 @@
+@media screen and (max-width:1400px) {
+    .discount-festival__wrapper {
+        padding-top: 22rem;
+    }
+
+    .discount-festival__img {
+        top: -16rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .header__top {
+        grid-template-columns: 17% 60% 23%;
+    }
+
+    .shop-products__shape {
+        bottom: -15rem;
+    }
+
+    .products-category__shape1,
+    .products-category__shape2 {
+        top: -21rem;
+    }
+
+    .discount-festival__img {
+        top: -14rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .header__top {
+        grid-template-columns: 15% 50% 35%;
+    }
+
+    .header__bottom {
+        font-size: 1.2rem;
+    }
+
+    .header__connection-title {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .menu__item::before {
+        top: 8px;
+    }
+
+    .header__connection {
+        display: none;
+    }
+
+    .shop-products__shape {
+        display: none;
+    }
+
+    .products-category__shape1,
+    .products-category__shape2 {
+        top: -20rem;
+    }
+
+    .popular-products-menu__link {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+
+    .popular-products__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .discount-festival__wrapper {
+        padding-top: 32rem;
+    }
+
+    .discount-festival__img {
+        top: -12rem;
+    }
+
+    .benefits__content {
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+
+    .benefits__list {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .header__profile-shopping-cart-icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header__top {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .header__shopping-cart {
+        display: none;
+    }
+
+    .header__profile-user-icon {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+
+    .header__connection {
+        display: flex;
+    }
+
+    .header__bottom {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 2rem;
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+        height: 0;
+        overflow: hidden;
+        opacity: 1;
+        transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+        -ms-transition: all 200ms ease-in;
+        -o-transition: all 200ms ease-in;
+    }
+
+    .header__nav,
+    .menu {
+        flex-direction: column;
+    }
+
+    .header__nav {
+        padding-top: 1rem;
+    }
+
+    .menu--open {
+        height: 42rem;
+    }
+
+    .shop-products__title {
+        font-size: 3.5rem;
+    }
+
+    .products-category__title {
+        margin-top: 7rem;
+    }
+
+    .shop-products__img-shape1,
+    .shop-products__img-shape2 {
+        display: none;
+    }
+
+    .products-category__shape1,
+    .products-category__shape2 {
+        top: -15rem;
+    }
+
+    .popular-products-menu {
+        overflow-x: auto;
+        gap: 1rem;
+        scroll-snap-type: x mandatory;
+    }
+
+    .popular-products-menu__item {
+        flex: 0 0 auto;
+        width: 11rem;
+        scroll-snap-align: start;
+    }
+
+    .discount-festival__img {
+        top: -16rem;
+    }
+
+    .moochichi-instagram {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefits__content {
+        margin-bottom: 4rem;
+    }
+
+    .benefits__heart-right,
+    .benefits__heart-left {
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header__top {
+        grid-template-columns: repeat(3, 30%);
+        grid-gap: 1rem;
+    }
+
+    .header__search-box {
+        grid-column: 1/span1;
+        grid-row: 2/span3;
+    }
+
+    .shop-products__title {
+        font-size: 2.4rem;
+    }
+
+    .products-category__shape1,
+    .products-category__shape2 {
+        display: none;
+
+    }
+
+    .products-category__wrapper {
+        bottom: 24rem;
+    }
+
+    .products-category__title {
+        margin-top: 12rem;
+    }
+
+    .shop-products__title-shape1 {
+        width: 12px;
+        top: 2px;
+        left: 2px;
+    }
+
+    .shop-products__title-shape2 {
+        width: 105px;
+        top: 3.5rem;
+    }
+
+    .shop-products__shape {
+        display: block;
+        max-width: 32rem;
+        width: 100%;
+    }
+
+    .popular-products__gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .view-more-btn {
+        display: block;
+    }
+
+    .popular-products__content .popular-products__content-item:last-child {
+        display: none;
+    }
+
+    .popular-products__samples-writing-supplies-banner a:first-child {
+        font-size: 1.6rem;
+    }
+
+    .popular-products__samples-writing-supplies-banner a:last-child {
+        font-size: 1.4rem;
+    }
+
+    .popular-products__samples-night-light a:first-child {
+        font-size: 1.6rem;
+    }
+
+    .popular-products__samples-night-light a:last-child {
+        font-size: 1.4rem;
+    }
+
+    .discount-festival__gallery {
+        display: none;
+    }
+
+    .display-status {
+        display: block !important;
+    }
+
+    .discount-festival__wrapper {
+        padding-top: 12rem;
+    }
+
+    .discount-festival__img {
+        width: 10rem;
+        top: -8rem;
+        left: 0;
+    }
+
+    .benefits__title {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .benefits__title::before {
+        top: -6.7rem;
+        right: 20.5rem;
+    }
+
+    .articles__content {
+        max-width: inherit;
+        width: 100%;
+    }
+
+    .footer-menu {
+        border-bottom: 0;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: space-around;
+    }
+
+    .footer-menu__item {
+        width: 20rem;
+        text-align: center;
+        position: relative;
+    }
+
+    .footer-menu__item::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        background-color: #fff;
+        position: absolute;
+        right: 56px;
+        top: 3px;
+    }
+
+    .footer__contact-methods {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-right: 2rem;
+    }
+
+    .footer__financial-logos {
+        margin: 0 auto;
+    }
+    .footer__bottom{
+        flex-direction: column-reverse;
+        gap:2rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .popular-products__samples-night-light {
+        background-position-x: left;
+    }
+
+    .benefits__title {
+        font-size: 2rem;
+    }
+
+    .moochichi-instagram__title {
+        font-size: 1.8rem;
+    }
+
+    .benefits__title::before {
+        right: 14.5rem;
+    }
+
+}
+
+@media screen and (max-width:350px) {
+    .benefits__title {
+        font-size: 1.6rem;
+    }
+
+    .moochichi-instagram__title {
+        font-size: 1.6rem;
+    }
+
+    .moochichi-instagram__link span {
+        font-size: 1.8rem;
+    }
+
+    .moochichi-instagram__link svg {
+        width: 3rem;
+    }
+}
